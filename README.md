@@ -49,7 +49,7 @@ Users can create tickets with:
 - Priority
 - Category
 
-Users can also update the ticket status between:
+Users can update ticket status:
 
 - Open
 - In Progress
