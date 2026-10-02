@@ -1,42 +1,60 @@
-# ticketing-tool
-Ticketing Tool - Frontend Project
-
 # Ticketing Tool
 
-A simple frontend Ticketing Tool project created as part of an internship task.
+A responsive Support Ticketing Tool built with React.
 
 ## Features
 
+- Ticket listing
 - Create support tickets
-- Add ticket descriptions
+- View ticket details
+- Manage ticket status
 - Set ticket priority
-- Display created tickets
-- Simple responsive interface
+- Select ticket category
+- Responsive layout
 
 ## Technologies Used
 
+- React
+- JavaScript
 - HTML5
 - CSS3
-- JavaScript
+- Vite
 
 ## Project Structure
 
 ticketing-tool/
 ├── frontend/
+│   ├── src/
+│   │   ├── App.jsx
+│   │   ├── App.css
+│   │   └── main.jsx
 │   ├── index.html
-│   ├── style.css
-│   └── script.js
+│   └── package.json
 ├── README.md
 └── .gitignore
 
 ## How to Run
 
-1. Open the `frontend` folder.
-2. Open `index.html` in a web browser.
-3. Enter a ticket title and description.
-4. Select the priority.
-5. Click **Create Ticket**.
+1. Open the frontend folder.
+2. Install the project dependencies.
+3. Run the development server.
+4. Open the application in a browser.
+
+## Ticket Management
+
+Users can create tickets with:
+
+- Title
+- Description
+- Priority
+- Category
+
+Users can also update the ticket status between:
+
+- Open
+- In Progress
+- Resolved
 
 ## Project Status
 
-Completed frontend implementation.
+Completed React frontend implementation for the Support Ticketing Tool.
