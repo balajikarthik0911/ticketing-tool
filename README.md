@@ -1,5 +1,4 @@
 # Ticketing Tool
-
 A responsive Support Ticketing Tool built with React.
 
 ## Features
