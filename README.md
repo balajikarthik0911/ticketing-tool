@@ -36,9 +36,9 @@ ticketing-tool/
 ## How to Run
 
 1. Open the frontend folder.
-2. Install the project dependencies.
-3. Run the development server.
-4. Open the application in a browser.
+2. Install the dependencies using npm install.
+3. Run the project using npm run dev.
+4. Open the displayed local URL in your browser.
 
 ## Ticket Management
 
