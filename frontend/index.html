@@ -1,9 +1,45 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <title>Ticketing Tool</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ticketing Tool</title>
+    <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-  <h1>Ticketing Tool</h1>
+    <div class="container">
+        <h1>Ticketing Tool</h1>
+
+        <form id="ticketForm">
+            <input
+                type="text"
+                id="title"
+                placeholder="Ticket title"
+                required
+            >
+
+            <textarea
+                id="description"
+                placeholder="Describe the issue"
+                rows="4"
+                required
+            ></textarea>
+
+            <select id="priority">
+                <option value="Low">Low Priority</option>
+                <option value="Medium">Medium Priority</option>
+                <option value="High">High Priority</option>
+            </select>
+
+            <button type="submit">Create Ticket</button>
+        </form>
+
+        <h2>Tickets</h2>
+
+        <div id="ticketList"></div>
+    </div>
+
+    <script src="script.js"></script>
 </body>
 </html>
